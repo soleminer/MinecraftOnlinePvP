@@ -1,0 +1,17 @@
+name: MinecraftPvPGame
+version: 1.0
+main: com.example.pvp.Main
+api-version: 1.16
+
+commands:
+  pvp:
+    description: Start or join a PvP match
+    usage: /<command> [join|start]
+
+permissions:
+  pvp.join:
+    description: Allows a player to join a PvP match
+    default: true
+  pvp.start:
+    description: Allows a player to start a PvP match
+    default: op
